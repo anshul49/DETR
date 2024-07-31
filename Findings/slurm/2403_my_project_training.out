@@ -1,0 +1,385 @@
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.099465 |    1045
+Atelectasis                    | 0.000000 |      39
+Calcification                  | 0.000000 |     159
+Cardiomegaly                   | 0.060192 |     731
+Consolidation                  | 0.000000 |      77
+ILD                            | 0.013261 |     179
+Infiltration                   | 0.024793 |     242
+Lung Opacity                   | 0.015772 |     442
+No finding                     | 0.000018 |    2146
+Nodule/Mass                    | 0.001592 |     394
+Other lesion                   | 0.000000 |     418
+Pleural effusion               | 0.068016 |     454
+Pleural thickening             | 0.015195 |     931
+Pneumothorax                   | 0.000000 |      37
+Pulmonary fibrosis             | 0.016579 |     819
+mAP: 0.020992
+mean_ap : 0.02099217610814281
+average_precisions : {'Aortic enlargement': (0.0994651455610757, 1045.0), 'Atelectasis': (0.0, 39.0), 'Calcification': (0.0, 159.0), 'Cardiomegaly': (0.06019230841495702, 731.0), 'Consolidation': (0.0, 77.0), 'ILD': (0.013260627455336621, 179.0), 'Infiltration': (0.024793388429752067, 242.0), 'Lung Opacity': (0.015772116689358226, 442.0), 'No finding': (1.7730642809049534e-05, 2146.0), 'Nodule/Mass': (0.0015915822895846477, 394.0), 'Other lesion': (0.0, 418.0), 'Pleural effusion': (0.0680162131979896, 454.0), 'Pleural thickening': (0.015194701300304318, 931.0), 'Pneumothorax': (0.0, 37.0), 'Pulmonary fibrosis': (0.016578827640974864, 819.0)}
+|EPOCH 1| TRAIN_LOSS 1.984278493317274| VALID_LOSS 1.1044649800360202|
+Best model found for Fold 0 in Epoch 1........Saving Model
+|EPOCH 2| TRAIN_LOSS 1.4365186366897362| VALID_LOSS 1.1044649800360202|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.177514 |    1045
+Atelectasis                    | 0.000000 |      39
+Calcification                  | 0.004380 |     159
+Cardiomegaly                   | 0.269904 |     731
+Consolidation                  | 0.012987 |      77
+ILD                            | 0.024120 |     179
+Infiltration                   | 0.059842 |     242
+Lung Opacity                   | 0.044318 |     442
+No finding                     | 0.978143 |    2146
+Nodule/Mass                    | 0.018819 |     394
+Other lesion                   | 0.015636 |     418
+Pleural effusion               | 0.124246 |     454
+Pleural thickening             | 0.049716 |     931
+Pneumothorax                   | 0.000000 |      37
+Pulmonary fibrosis             | 0.075894 |     819
+mAP: 0.123701
+mean_ap : 0.1237012179952516
+average_precisions : {'Aortic enlargement': (0.17751383038269808, 1045.0), 'Atelectasis': (0.0, 39.0), 'Calcification': (0.0043803766355815805, 159.0), 'Cardiomegaly': (0.2699042722944952, 731.0), 'Consolidation': (0.012987012987012988, 77.0), 'ILD': (0.02411954193986353, 179.0), 'Infiltration': (0.05984204553233282, 242.0), 'Lung Opacity': (0.04431793964224337, 442.0), 'No finding': (0.9781431029742191, 2146.0), 'Nodule/Mass': (0.018818781909348176, 394.0), 'Other lesion': (0.015635886369692473, 418.0), 'Pleural effusion': (0.12424627469952701, 454.0), 'Pleural thickening': (0.04971567276961327, 931.0), 'Pneumothorax': (0.0, 37.0), 'Pulmonary fibrosis': (0.07589353179214639, 819.0)}
+|EPOCH 3| TRAIN_LOSS 1.3017793662846089| VALID_LOSS 0.4929731736779213|
+Best model found for Fold 0 in Epoch 3........Saving Model
+|EPOCH 4| TRAIN_LOSS 1.172374104651121| VALID_LOSS 0.4929731736779213|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.172431 |    1045
+Atelectasis                    | 0.128657 |      39
+Calcification                  | 0.008355 |     159
+Cardiomegaly                   | 0.316356 |     731
+Consolidation                  | 0.055647 |      77
+ILD                            | 0.050353 |     179
+Infiltration                   | 0.069074 |     242
+Lung Opacity                   | 0.059327 |     442
+No finding                     | 0.984997 |    2146
+Nodule/Mass                    | 0.020928 |     394
+Other lesion                   | 0.020294 |     418
+Pleural effusion               | 0.131276 |     454
+Pleural thickening             | 0.058022 |     931
+Pneumothorax                   | 0.000000 |      37
+Pulmonary fibrosis             | 0.109438 |     819
+mAP: 0.145677
+mean_ap : 0.14567707729363674
+average_precisions : {'Aortic enlargement': (0.17243135070340607, 1045.0), 'Atelectasis': (0.12865699743527798, 39.0), 'Calcification': (0.00835455899312767, 159.0), 'Cardiomegaly': (0.31635578782857066, 731.0), 'Consolidation': (0.055647314427866634, 77.0), 'ILD': (0.05035347281006399, 179.0), 'Infiltration': (0.06907374606207344, 242.0), 'Lung Opacity': (0.059327245356733525, 442.0), 'No finding': (0.984996941762871, 2146.0), 'Nodule/Mass': (0.020928255619876077, 394.0), 'Other lesion': (0.020294183959441155, 418.0), 'Pleural effusion': (0.13127580724507582, 454.0), 'Pleural thickening': (0.05802249871076062, 931.0), 'Pneumothorax': (0.0, 37.0), 'Pulmonary fibrosis': (0.10943799848940705, 819.0)}
+|EPOCH 5| TRAIN_LOSS 1.1349717990710184| VALID_LOSS 0.6318858213275671|
+Best model found for Fold 0 in Epoch 5........Saving Model
+|EPOCH 6| TRAIN_LOSS 1.0342004800072082| VALID_LOSS 0.6318858213275671|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.232702 |    1045
+Atelectasis                    | 0.114235 |      39
+Calcification                  | 0.012682 |     159
+Cardiomegaly                   | 0.345665 |     731
+Consolidation                  | 0.085646 |      77
+ILD                            | 0.071100 |     179
+Infiltration                   | 0.068054 |     242
+Lung Opacity                   | 0.135952 |     442
+No finding                     | 0.980653 |    2146
+Nodule/Mass                    | 0.034289 |     394
+Other lesion                   | 0.026878 |     418
+Pleural effusion               | 0.173598 |     454
+Pleural thickening             | 0.075716 |     931
+Pneumothorax                   | 0.002079 |      37
+Pulmonary fibrosis             | 0.085702 |     819
+mAP: 0.162997
+mean_ap : 0.16299671886991327
+average_precisions : {'Aortic enlargement': (0.23270174504703797, 1045.0), 'Atelectasis': (0.11423463315868379, 39.0), 'Calcification': (0.012682491292838587, 159.0), 'Cardiomegaly': (0.3456650873973657, 731.0), 'Consolidation': (0.08564610583473187, 77.0), 'ILD': (0.0710995436966403, 179.0), 'Infiltration': (0.0680541448571811, 242.0), 'Lung Opacity': (0.1359518700235542, 442.0), 'No finding': (0.9806529181896468, 2146.0), 'Nodule/Mass': (0.03428894713569268, 394.0), 'Other lesion': (0.026878240311511387, 418.0), 'Pleural effusion': (0.17359760650094666, 454.0), 'Pleural thickening': (0.07571603382122338, 931.0), 'Pneumothorax': (0.002079002079002079, 37.0), 'Pulmonary fibrosis': (0.0857024137026424, 819.0)}
+|EPOCH 7| TRAIN_LOSS 0.9699560960324911| VALID_LOSS 0.5430664863934119|
+Best model found for Fold 0 in Epoch 7........Saving Model
+|EPOCH 8| TRAIN_LOSS 0.9107024630674949| VALID_LOSS 0.5430664863934119|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.195801 |    1045
+Atelectasis                    | 0.048728 |      39
+Calcification                  | 0.011135 |     159
+Cardiomegaly                   | 0.322498 |     731
+Consolidation                  | 0.082590 |      77
+ILD                            | 0.046606 |     179
+Infiltration                   | 0.069441 |     242
+Lung Opacity                   | 0.109635 |     442
+No finding                     | 0.987052 |    2146
+Nodule/Mass                    | 0.036254 |     394
+Other lesion                   | 0.013888 |     418
+Pleural effusion               | 0.117803 |     454
+Pleural thickening             | 0.035493 |     931
+Pneumothorax                   | 0.003159 |      37
+Pulmonary fibrosis             | 0.106150 |     819
+mAP: 0.145749
+mean_ap : 0.1457488538210126
+average_precisions : {'Aortic enlargement': (0.19580070406946742, 1045.0), 'Atelectasis': (0.048728286008987765, 39.0), 'Calcification': (0.011135393217542316, 159.0), 'Cardiomegaly': (0.32249798585352485, 731.0), 'Consolidation': (0.08259014296807958, 77.0), 'ILD': (0.04660576997752931, 179.0), 'Infiltration': (0.06944075663995786, 242.0), 'Lung Opacity': (0.10963501869219122, 442.0), 'No finding': (0.9870520572122232, 2146.0), 'Nodule/Mass': (0.03625429639917194, 394.0), 'Other lesion': (0.013888203435714081, 418.0), 'Pleural effusion': (0.11780256599520822, 454.0), 'Pleural thickening': (0.03549276495585537, 931.0), 'Pneumothorax': (0.0031590031590031592, 37.0), 'Pulmonary fibrosis': (0.10614985873073321, 819.0)}
+|EPOCH 9| TRAIN_LOSS 0.8841082635980386| VALID_LOSS 0.520238448197643|
+|EPOCH 10| TRAIN_LOSS 0.8358418693336157| VALID_LOSS 0.520238448197643|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.359004 |    1045
+Atelectasis                    | 0.120017 |      39
+Calcification                  | 0.032547 |     159
+Cardiomegaly                   | 0.437344 |     731
+Consolidation                  | 0.106445 |      77
+ILD                            | 0.094788 |     179
+Infiltration                   | 0.099581 |     242
+Lung Opacity                   | 0.148255 |     442
+No finding                     | 0.983768 |    2146
+Nodule/Mass                    | 0.052956 |     394
+Other lesion                   | 0.037959 |     418
+Pleural effusion               | 0.196395 |     454
+Pleural thickening             | 0.074266 |     931
+Pneumothorax                   | 0.016216 |      37
+Pulmonary fibrosis             | 0.118005 |     819
+mAP: 0.191836
+mean_ap : 0.19183639488496027
+average_precisions : {'Aortic enlargement': (0.3590035397044943, 1045.0), 'Atelectasis': (0.12001683384009601, 39.0), 'Calcification': (0.0325473350570724, 159.0), 'Cardiomegaly': (0.4373438803376771, 731.0), 'Consolidation': (0.10644470315782797, 77.0), 'ILD': (0.09478767445825546, 179.0), 'Infiltration': (0.09958082533450713, 242.0), 'Lung Opacity': (0.14825451715983312, 442.0), 'No finding': (0.9837684873323903, 2146.0), 'Nodule/Mass': (0.05295631409137674, 394.0), 'Other lesion': (0.037959056016095914, 418.0), 'Pleural effusion': (0.19639491937484466, 454.0), 'Pleural thickening': (0.07426634838041352, 931.0), 'Pneumothorax': (0.016216216216216217, 37.0), 'Pulmonary fibrosis': (0.11800527281330266, 819.0)}
+|EPOCH 11| TRAIN_LOSS 0.7790302695563206| VALID_LOSS 0.5373943527986605|
+Best model found for Fold 0 in Epoch 11........Saving Model
+|EPOCH 12| TRAIN_LOSS 0.765857617270488| VALID_LOSS 0.5373943527986605|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.303622 |    1045
+Atelectasis                    | 0.156449 |      39
+Calcification                  | 0.023510 |     159
+Cardiomegaly                   | 0.467505 |     731
+Consolidation                  | 0.088887 |      77
+ILD                            | 0.079457 |     179
+Infiltration                   | 0.123257 |     242
+Lung Opacity                   | 0.170311 |     442
+No finding                     | 0.991159 |    2146
+Nodule/Mass                    | 0.042627 |     394
+Other lesion                   | 0.032761 |     418
+Pleural effusion               | 0.228144 |     454
+Pleural thickening             | 0.090285 |     931
+Pneumothorax                   | 0.008312 |      37
+Pulmonary fibrosis             | 0.116850 |     819
+mAP: 0.194876
+mean_ap : 0.19487562583613685
+average_precisions : {'Aortic enlargement': (0.30362234166384083, 1045.0), 'Atelectasis': (0.15644904817661526, 39.0), 'Calcification': (0.02350964079947496, 159.0), 'Cardiomegaly': (0.467504995115477, 731.0), 'Consolidation': (0.0888868796433535, 77.0), 'ILD': (0.07945738892265741, 179.0), 'Infiltration': (0.12325742381540335, 242.0), 'Lung Opacity': (0.17031102797740444, 442.0), 'No finding': (0.9911585854158278, 2146.0), 'Nodule/Mass': (0.04262680475502167, 394.0), 'Other lesion': (0.03276069665532775, 418.0), 'Pleural effusion': (0.2281437752287963, 454.0), 'Pleural thickening': (0.09028461649525502, 931.0), 'Pneumothorax': (0.00831153734379541, 37.0), 'Pulmonary fibrosis': (0.1168496255338022, 819.0)}
+|EPOCH 13| TRAIN_LOSS 0.7233225155048646| VALID_LOSS 0.47031602589289345|
+Best model found for Fold 0 in Epoch 13........Saving Model
+|EPOCH 14| TRAIN_LOSS 0.6686818145788633| VALID_LOSS 0.47031602589289345|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.377996 |    1045
+Atelectasis                    | 0.083844 |      39
+Calcification                  | 0.049746 |     159
+Cardiomegaly                   | 0.501960 |     731
+Consolidation                  | 0.109937 |      77
+ILD                            | 0.088203 |     179
+Infiltration                   | 0.112541 |     242
+Lung Opacity                   | 0.154885 |     442
+No finding                     | 0.983775 |    2146
+Nodule/Mass                    | 0.049753 |     394
+Other lesion                   | 0.024667 |     418
+Pleural effusion               | 0.215294 |     454
+Pleural thickening             | 0.094199 |     931
+Pneumothorax                   | 0.013011 |      37
+Pulmonary fibrosis             | 0.107010 |     819
+mAP: 0.197788
+mean_ap : 0.19778795064216861
+average_precisions : {'Aortic enlargement': (0.3779957546171107, 1045.0), 'Atelectasis': (0.08384377967711303, 39.0), 'Calcification': (0.04974615129315534, 159.0), 'Cardiomegaly': (0.5019597470254833, 731.0), 'Consolidation': (0.10993720304138967, 77.0), 'ILD': (0.08820292116779427, 179.0), 'Infiltration': (0.1125412086647725, 242.0), 'Lung Opacity': (0.15488475623106018, 442.0), 'No finding': (0.9837745669422333, 2146.0), 'Nodule/Mass': (0.04975337809928686, 394.0), 'Other lesion': (0.024666593707396253, 418.0), 'Pleural effusion': (0.21529426258107293, 454.0), 'Pleural thickening': (0.09419870557612083, 931.0), 'Pneumothorax': (0.013010664055271622, 37.0), 'Pulmonary fibrosis': (0.10700956695326852, 819.0)}
+|EPOCH 15| TRAIN_LOSS 0.6304484830166285| VALID_LOSS 0.49162060870230195|
+Best model found for Fold 0 in Epoch 15........Saving Model
+|EPOCH 16| TRAIN_LOSS 0.5926067001257952| VALID_LOSS 0.49162060870230195|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.385011 |    1045
+Atelectasis                    | 0.134674 |      39
+Calcification                  | 0.055293 |     159
+Cardiomegaly                   | 0.516490 |     731
+Consolidation                  | 0.121698 |      77
+ILD                            | 0.104185 |     179
+Infiltration                   | 0.121078 |     242
+Lung Opacity                   | 0.156578 |     442
+No finding                     | 0.987177 |    2146
+Nodule/Mass                    | 0.055514 |     394
+Other lesion                   | 0.038467 |     418
+Pleural effusion               | 0.244917 |     454
+Pleural thickening             | 0.106245 |     931
+Pneumothorax                   | 0.010576 |      37
+Pulmonary fibrosis             | 0.127332 |     819
+mAP: 0.211016
+mean_ap : 0.2110155813692782
+average_precisions : {'Aortic enlargement': (0.38501109127966404, 1045.0), 'Atelectasis': (0.13467444858618707, 39.0), 'Calcification': (0.0552931169334843, 159.0), 'Cardiomegaly': (0.5164896017112108, 731.0), 'Consolidation': (0.121698277258575, 77.0), 'ILD': (0.10418545659538467, 179.0), 'Infiltration': (0.12107799112290075, 242.0), 'Lung Opacity': (0.15657757510750225, 442.0), 'No finding': (0.9871768747511805, 2146.0), 'Nodule/Mass': (0.055513559626530214, 394.0), 'Other lesion': (0.03846662330281408, 418.0), 'Pleural effusion': (0.24491663857012652, 454.0), 'Pleural thickening': (0.10624499964377003, 931.0), 'Pneumothorax': (0.010575793184488837, 37.0), 'Pulmonary fibrosis': (0.12733167286535355, 819.0)}
+|EPOCH 17| TRAIN_LOSS 0.5680967794301418| VALID_LOSS 0.45564685919880865|
+Best model found for Fold 0 in Epoch 17........Saving Model
+|EPOCH 18| TRAIN_LOSS 0.5429781712305087| VALID_LOSS 0.45564685919880865|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.380689 |    1045
+Atelectasis                    | 0.084731 |      39
+Calcification                  | 0.030765 |     159
+Cardiomegaly                   | 0.530351 |     731
+Consolidation                  | 0.102514 |      77
+ILD                            | 0.105290 |     179
+Infiltration                   | 0.114955 |     242
+Lung Opacity                   | 0.162770 |     442
+No finding                     | 0.983924 |    2146
+Nodule/Mass                    | 0.051559 |     394
+Other lesion                   | 0.047168 |     418
+Pleural effusion               | 0.239105 |     454
+Pleural thickening             | 0.104826 |     931
+Pneumothorax                   | 0.014395 |      37
+Pulmonary fibrosis             | 0.123777 |     819
+mAP: 0.205121
+mean_ap : 0.20512114136597673
+average_precisions : {'Aortic enlargement': (0.38068885976269523, 1045.0), 'Atelectasis': (0.08473085045141208, 39.0), 'Calcification': (0.030765065555598582, 159.0), 'Cardiomegaly': (0.5303508797718233, 731.0), 'Consolidation': (0.10251401056451208, 77.0), 'ILD': (0.10528987943147833, 179.0), 'Infiltration': (0.11495504398330636, 242.0), 'Lung Opacity': (0.16276952246794063, 442.0), 'No finding': (0.9839240347470228, 2146.0), 'Nodule/Mass': (0.05155855079431671, 394.0), 'Other lesion': (0.04716826476710597, 418.0), 'Pleural effusion': (0.23910454275439863, 454.0), 'Pleural thickening': (0.10482591652833807, 931.0), 'Pneumothorax': (0.014394829612220918, 37.0), 'Pulmonary fibrosis': (0.12377686929748088, 819.0)}
+|EPOCH 19| TRAIN_LOSS 0.5191473485758671| VALID_LOSS 0.5233354292313258|
+|EPOCH 20| TRAIN_LOSS 0.4927688344166829| VALID_LOSS 0.5233354292313258|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.374086 |    1045
+Atelectasis                    | 0.114881 |      39
+Calcification                  | 0.049410 |     159
+Cardiomegaly                   | 0.554852 |     731
+Consolidation                  | 0.110503 |      77
+ILD                            | 0.100422 |     179
+Infiltration                   | 0.133102 |     242
+Lung Opacity                   | 0.140223 |     442
+No finding                     | 0.980483 |    2146
+Nodule/Mass                    | 0.048915 |     394
+Other lesion                   | 0.043074 |     418
+Pleural effusion               | 0.248020 |     454
+Pleural thickening             | 0.105016 |     931
+Pneumothorax                   | 0.013689 |      37
+Pulmonary fibrosis             | 0.136884 |     819
+mAP: 0.210237
+mean_ap : 0.21023724460797139
+average_precisions : {'Aortic enlargement': (0.37408558980038853, 1045.0), 'Atelectasis': (0.11488095238095238, 39.0), 'Calcification': (0.049409890306441294, 159.0), 'Cardiomegaly': (0.5548516407523185, 731.0), 'Consolidation': (0.11050263477985986, 77.0), 'ILD': (0.10042178609629752, 179.0), 'Infiltration': (0.13310188223250474, 242.0), 'Lung Opacity': (0.14022304190240611, 442.0), 'No finding': (0.9804832803005057, 2146.0), 'Nodule/Mass': (0.048914983159539994, 394.0), 'Other lesion': (0.04307369179207069, 418.0), 'Pleural effusion': (0.2480197611968975, 454.0), 'Pleural thickening': (0.10501644138091475, 931.0), 'Pneumothorax': (0.01368925743925744, 37.0), 'Pulmonary fibrosis': (0.13688383559921538, 819.0)}
+|EPOCH 21| TRAIN_LOSS 0.477059922596583| VALID_LOSS 0.5297415461937587|
+|EPOCH 22| TRAIN_LOSS 0.4590638351841615| VALID_LOSS 0.5297415461937587|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.393266 |    1045
+Atelectasis                    | 0.066337 |      39
+Calcification                  | 0.044200 |     159
+Cardiomegaly                   | 0.532682 |     731
+Consolidation                  | 0.109115 |      77
+ILD                            | 0.117144 |     179
+Infiltration                   | 0.133977 |     242
+Lung Opacity                   | 0.136364 |     442
+No finding                     | 0.983889 |    2146
+Nodule/Mass                    | 0.068971 |     394
+Other lesion                   | 0.042750 |     418
+Pleural effusion               | 0.235327 |     454
+Pleural thickening             | 0.096367 |     931
+Pneumothorax                   | 0.010470 |      37
+Pulmonary fibrosis             | 0.126042 |     819
+mAP: 0.206460
+mean_ap : 0.2064600910372957
+average_precisions : {'Aortic enlargement': (0.39326577168783877, 1045.0), 'Atelectasis': (0.06633707614099771, 39.0), 'Calcification': (0.04420049657221884, 159.0), 'Cardiomegaly': (0.5326823360456152, 731.0), 'Consolidation': (0.10911513947597873, 77.0), 'ILD': (0.11714446024428402, 179.0), 'Infiltration': (0.1339772810885581, 242.0), 'Lung Opacity': (0.13636357833408824, 442.0), 'No finding': (0.9838893327701774, 2146.0), 'Nodule/Mass': (0.06897094209242136, 394.0), 'Other lesion': (0.04274957677686581, 418.0), 'Pleural effusion': (0.23532689482417007, 454.0), 'Pleural thickening': (0.09636664710678343, 931.0), 'Pneumothorax': (0.01047029172029172, 37.0), 'Pulmonary fibrosis': (0.12604154067914605, 819.0)}
+|EPOCH 23| TRAIN_LOSS 0.4450675260275602| VALID_LOSS 0.5110892229477565|
+|EPOCH 24| TRAIN_LOSS 0.42908936148652665| VALID_LOSS 0.5110892229477565|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.425123 |    1045
+Atelectasis                    | 0.082916 |      39
+Calcification                  | 0.049623 |     159
+Cardiomegaly                   | 0.558660 |     731
+Consolidation                  | 0.113179 |      77
+ILD                            | 0.136299 |     179
+Infiltration                   | 0.145243 |     242
+Lung Opacity                   | 0.137106 |     442
+No finding                     | 0.981587 |    2146
+Nodule/Mass                    | 0.058356 |     394
+Other lesion                   | 0.042159 |     418
+Pleural effusion               | 0.261559 |     454
+Pleural thickening             | 0.110350 |     931
+Pneumothorax                   | 0.015598 |      37
+Pulmonary fibrosis             | 0.127252 |     819
+mAP: 0.216334
+mean_ap : 0.2163340213886418
+average_precisions : {'Aortic enlargement': (0.42512304308270943, 1045.0), 'Atelectasis': (0.08291577786484407, 39.0), 'Calcification': (0.04962308582316652, 159.0), 'Cardiomegaly': (0.5586599969168016, 731.0), 'Consolidation': (0.11317913417672844, 77.0), 'ILD': (0.13629879195736086, 179.0), 'Infiltration': (0.14524308321176235, 242.0), 'Lung Opacity': (0.13710615168318835, 442.0), 'No finding': (0.9815870048412557, 2146.0), 'Nodule/Mass': (0.05835562571115697, 394.0), 'Other lesion': (0.042159332671880725, 418.0), 'Pleural effusion': (0.2615590170466915, 454.0), 'Pleural thickening': (0.11034950515735938, 931.0), 'Pneumothorax': (0.015598455598455598, 37.0), 'Pulmonary fibrosis': (0.127252315086266, 819.0)}
+|EPOCH 25| TRAIN_LOSS 0.41692473080295783| VALID_LOSS 0.522882603580753|
+Best model found for Fold 0 in Epoch 25........Saving Model
+|EPOCH 26| TRAIN_LOSS 0.40232986343594695| VALID_LOSS 0.522882603580753|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.421703 |    1045
+Atelectasis                    | 0.058761 |      39
+Calcification                  | 0.037746 |     159
+Cardiomegaly                   | 0.559229 |     731
+Consolidation                  | 0.115330 |      77
+ILD                            | 0.127800 |     179
+Infiltration                   | 0.164954 |     242
+Lung Opacity                   | 0.145535 |     442
+No finding                     | 0.979917 |    2146
+Nodule/Mass                    | 0.058930 |     394
+Other lesion                   | 0.043673 |     418
+Pleural effusion               | 0.241017 |     454
+Pleural thickening             | 0.095104 |     931
+Pneumothorax                   | 0.006511 |      37
+Pulmonary fibrosis             | 0.132301 |     819
+mAP: 0.212567
+mean_ap : 0.21256734515391812
+average_precisions : {'Aortic enlargement': (0.42170306860056683, 1045.0), 'Atelectasis': (0.05876068376068377, 39.0), 'Calcification': (0.03774574992149164, 159.0), 'Cardiomegaly': (0.5592291203093709, 731.0), 'Consolidation': (0.11532968628794742, 77.0), 'ILD': (0.12779963321086488, 179.0), 'Infiltration': (0.16495392434205955, 242.0), 'Lung Opacity': (0.14553484916838152, 442.0), 'No finding': (0.9799168111605863, 2146.0), 'Nodule/Mass': (0.05893030954490718, 394.0), 'Other lesion': (0.04367317308494199, 418.0), 'Pleural effusion': (0.24101689964101375, 454.0), 'Pleural thickening': (0.09510426432191103, 931.0), 'Pneumothorax': (0.006511056511056512, 37.0), 'Pulmonary fibrosis': (0.13230094744298837, 819.0)}
+|EPOCH 27| TRAIN_LOSS 0.39430324194523003| VALID_LOSS 0.5271502255052328|
+|EPOCH 28| TRAIN_LOSS 0.3822466793541725| VALID_LOSS 0.5271502255052328|
+Number of files in annotations: 3000
+Number of files in predictions: 3000
+Unique classes: 15
+Detections length: 3000
+Annotations length: 3000
+Aortic enlargement             | 0.424586 |    1045
+Atelectasis                    | 0.117379 |      39
+Calcification                  | 0.045984 |     159
+Cardiomegaly                   | 0.556077 |     731
+Consolidation                  | 0.137950 |      77
+ILD                            | 0.109107 |     179
+Infiltration                   | 0.157457 |     242
+Lung Opacity                   | 0.135778 |     442
+No finding                     | 0.981197 |    2146
+Nodule/Mass                    | 0.056358 |     394
+Other lesion                   | 0.050781 |     418
+Pleural effusion               | 0.247382 |     454
+Pleural thickening             | 0.110758 |     931
+Pneumothorax                   | 0.005921 |      37
+Pulmonary fibrosis             | 0.133932 |     819
+mAP: 0.218043
+mean_ap : 0.2180431314390268
+average_precisions : {'Aortic enlargement': (0.4245862150402644, 1045.0), 'Atelectasis': (0.11737891737891737, 39.0), 'Calcification': (0.04598442457750243, 159.0), 'Cardiomegaly': (0.5560767622271205, 731.0), 'Consolidation': (0.13795007870022732, 77.0), 'ILD': (0.10910749940698457, 179.0), 'Infiltration': (0.15745698113038237, 242.0), 'Lung Opacity': (0.13577835729820853, 442.0), 'No finding': (0.9811968513154257, 2146.0), 'Nodule/Mass': (0.05635750597504129, 394.0), 'Other lesion': (0.05078074331318434, 418.0), 'Pleural effusion': (0.24738154081338926, 454.0), 'Pleural thickening': (0.11075828823827727, 931.0), 'Pneumothorax': (0.005920636355418964, 37.0), 'Pulmonary fibrosis': (0.13393216981505726, 819.0)}
+|EPOCH 29| TRAIN_LOSS 0.37461160223644513| VALID_LOSS 0.5977747958252827|
+Best model found for Fold 0 in Epoch 29........Saving Model
+|EPOCH 30| TRAIN_LOSS 0.36558808349072935| VALID_LOSS 0.5977747958252827|
